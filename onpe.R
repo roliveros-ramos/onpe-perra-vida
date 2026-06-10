@@ -1,3 +1,5 @@
+library(httr2)
+library(jsonlite)
 library(lubridate)
 
 source("src/download_onpe_ubigeo.R")
@@ -32,7 +34,7 @@ participantes = all_data$participantes
 failures = all_data$failures
 
 write.csv(participantes, 
-          file=sprintf("%s.csv", format(Sys.time(), format = "%Y%m%d%H%M")))
+          file=sprintf("results/%s.csv", format(Sys.time(), format = "%Y%m%d%H%M")))
 
 raise = 100/participantes$actasContabilizadas
 raise[participantes$actasContabilizadas<50] = 1
