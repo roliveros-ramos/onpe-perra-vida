@@ -8,7 +8,6 @@ curl_txt = r"(curl 'https://resultadosegundavuelta.onpe.gob.pe/presentacion-back
   -H 'accept: */*' \
   -H 'accept-language: en-ZA,en;q=0.9,es-419;q=0.8,es;q=0.7,fr;q=0.6' \
   -H 'content-type: application/json' \
-  -b '_ga=GA1.1.979218734.1778433629; _ga_S91LMCFR6G=GS2.1.s1780877866$o1$g0$t1780877877$j49$l0$h49202747; _ga_WM6LG77HS7=GS2.1.s1780925911$o3$g0$t1780926774$j60$l0$h0; _ga_7X9XC2V582=GS2.1.s1781042207$o6$g0$t1781042212$j55$l0$h1778215160; _ga_THMBN2T4BS=GS2.1.s1781042206$o19$g1$t1781042568$j59$l0$h1843657243' \
   -H 'priority: u=1, i' \
   -H 'referer: https://resultadosegundavuelta.onpe.gob.pe/main/resumen' \
   -H 'sec-ch-ua: "Google Chrome";v="149", "Chromium";v="149", "Not)A;Brand";v="24"' \
